@@ -1,0 +1,476 @@
+* {
+    margin: 0;
+    padding: 0;
+    margin: 0;
+}
+
+
+/* BOOT CSS */
+.center {
+    max-width: 1080px;
+    margin: 0 auto;
+    padding: 0 2%;
+}
+
+.left {
+    float:left;
+}
+
+.right {
+    float: right;
+}
+
+.clear {
+    clear: both;
+}
+
+.w100 {
+    width: 100%;
+}
+
+.w50 {
+    width: 50%;
+} 
+
+.w33 {
+    width: 33.3%;
+}
+
+[animate]{
+    opacity: 0;
+
+    transition: 1s;
+}
+
+[animate=top]{
+    transform: translate3d(0, -50px,0);
+}
+
+.animate {
+    opacity: 1;
+    transform: translate3d(0,0,0);
+}
+
+/* header */
+header {
+    background-color: #2e7d32;
+}
+
+.logo p {
+    position: relative;
+    top: 11px;
+    font-size: 22px;
+}
+
+.logo p a {
+    text-decoration: none;
+    color: white;
+}
+
+
+header nav.nav-desktop ul  {
+    display: inline;
+    list-style-type: none;
+    position: relative;
+    top: -11px;
+}
+
+header nav.nav-desktop ul li {
+    display: inline-block;
+    padding-left: 8px;
+}
+
+header nav.nav-desktop ul li a {
+    text-decoration: none;
+    color: white;
+} 
+
+header nav.nav-desktop ul li a:hover {
+    text-decoration: underline;
+}
+
+.menu-mobile-icon img {
+    display: none;
+}
+
+.menu-mobile {
+    display:none;
+}
+/* index (apresentação)*/
+.banner img {
+    width: 100%;
+}
+
+.diferenciais-section {
+    margin-top: -4px;
+    padding: 18px 0px;
+    background-color: #2a1e50;
+}
+
+.titulo-diferenciais {
+    position: relative;
+    top: 18px;
+    border-bottom: 5px solid #004d40;
+    width: 85%;
+}
+
+.diferenciais {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.diferencial-single {
+    padding: 18px;
+    text-align: center;
+}
+
+.diferencial-single img {
+    width: 52px;
+    height: 52px;
+}
+
+.diferencial-single p {
+    margin-top: 28px;
+}
+
+.conheca-cursos {
+    margin-top: 40px;
+}
+
+
+/* alerta*/ 
+div.mensagem {
+    margin-top: 15px;
+    padding: 2px 0 2px 8px;
+    border-left: 2px solid gray;
+    background-color:#f0f4c3;
+
+}
+
+div.mensagem .erro {
+    background-color: red;
+}
+
+/* home */
+div.logar {
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%,-50%);
+    padding: 22px;
+    box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+div.logar h2 {
+    margin-bottom: 22px;
+}
+
+
+div.logar form input[type=text], 
+div.logar form input[type=password] {
+    width: 98%;
+    padding-right: 8px;
+    height: 22px;
+    margin-bottom: 28px;
+    padding-left: 8px;
+}
+
+div.logar form input[type=submit] {
+    width: 25%;
+    background-color: #2e7d32;
+    color: white;
+    border: 0;
+    height: 22px;
+    cursor: pointer;
+}
+
+/* área do aluno*/
+.chamada {
+    text-align: center;
+    background-color: #004d40 ;
+    height: 110px;
+}
+
+.chamada p {
+    position: relative;
+    top: 15px;
+    font-size: 21px;
+    color:white;
+}
+
+.chamada p a img {
+    width: 22px;
+    height: 22px;
+}
+
+.meus-cursos p {
+    font-size: 22px;
+    font-weight: bold;
+    position: relative;
+    top: 10px;
+}
+
+.cursos {
+    margin-top: 38px;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.box-curso-wraper {
+    margin-bottom: 18px;
+}
+
+.box-single {
+    position: relative;
+    text-align: center;
+    width: 85%;
+    margin: 0 auto;
+    padding: 8px;
+    border: 1px solid gray;
+    height: 380px;
+}
+
+
+.box-single img {
+    text-align: center;
+    width: 200px;
+}
+
+.box-single h3 {
+    padding: 8px 0;
+}
+.box-single p {
+    text-align: left;
+    font-weight: normal;
+    font-size: 16px;
+}
+
+.box-single a {
+    width: 100%;
+    position: absolute;
+    display: block;
+    background-color: #004d40;
+    color: white;
+    padding: 8px 0;
+    left: 0;
+    bottom: 0;
+   
+}
+
+/* curso */
+div.titulo {
+    background-color: #2e7d32;
+    text-align: center;
+    padding: 18px;
+}
+
+div.titulo h2 {
+    color:white;
+}
+
+div.modulos {
+    margin-top: 40px;
+}
+
+div.modulo-box {
+    width: 70%;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 18px;
+    border-bottom: 1px solid black;
+}
+
+div.modulo-box h3 img {
+    width: 18px;
+    height: 18px;
+    cursor: pointer;
+}
+div.aulas {
+    margin-top: 15px;
+    margin-left: 15%;
+    text-align: left;
+
+}
+div.aulas p {
+    padding: 8px 0;
+}
+
+div.aulas img {
+    width: 15px;
+    height: 15px;
+}
+
+.h0 {
+    height: 0px;
+    overflow: hidden;
+}
+
+/* aula */
+.header-aula {
+    margin-top: 28px;
+    text-align: center;
+}
+
+.header-aula h3 {
+    margin-bottom: 15px;
+}
+
+.header-aula h4 {
+    color:#004d40;
+    text-align: right;
+    margin-bottom: 28px;
+}
+
+.video {
+    width: 98%;
+    height: 420px;
+    margin: 0 auto;
+    border:1px solid black;
+}
+
+.aula a {
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 18px;
+    width: 35%;
+    padding: 8px;
+    text-decoration: none;
+    color: white;
+    background-color: #004d40;
+    text-align: center;
+    border-radius: 2%;
+}
+
+.anotacoes-aulas {
+    border-left: 4px solid #004d40;  
+    background-color: #ecdbcd;
+    padding: 8px;
+    margin-bottom: 40px;
+
+}
+
+/* perfil */
+.perfil-papper{
+    margin: 0 auto;
+    background-color: #ecdbcd;
+    height: 400px;
+}
+
+.dados-aluno {
+    margin-top: 40px;
+    position: relative;
+    top: 40px;
+}
+
+.dados-aluno .avatar {
+    border: 1px solid black;
+    border-radius: 50%;
+    width: 80px;
+    height: 80px;
+    position: relative;
+}
+
+.dados-aluno .avatar img {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+
+.dados-aluno .dados {
+    padding: 0px 35px;
+}
+
+.dados-aluno .dados input[type=text], .dados input[type=password] {
+    border: 0;
+    border-bottom: 1px solid black;
+    font-size: 22px;
+    background-color: #ecdbcd;
+}
+
+/* footer */
+footer {
+    margin-top: 18px;
+    background-color: #2e7d32;
+    width: 100%;
+    height: 60px;
+    text-align: center;
+}
+
+footer p {
+    position: relative;
+    top: 20px;
+    font-size: large;
+    color: white;
+}
+
+/* mobile */
+@media screen and (max-width: 720px){
+    .w33 {
+        width: 100%;
+    }
+
+    .titulo-diferenciais {
+        margin: 0 auto;
+        text-align: center;
+    }
+
+    .nav-desktop {
+        display: none;
+    }
+
+    header {
+        height: 60px;
+    }
+
+    .menu-mobile-icon img {
+        display: block;
+        position: relative;
+        top: -15px;
+        width: 32px;
+        height: 32px;
+        cursor: pointer;
+    }
+
+    .menu-mobile {
+        display: block;
+    }
+
+    .menu-mobile {
+        height: 0px;
+        position: absolute;
+        overflow: hidden;
+        top: 52px;
+        left: 0;
+        width: 100%;
+        text-align: center;
+        background-color: white;
+        z-index:10;
+    }
+
+    .menu-mobile ul {
+        list-style-type: none;
+    }
+
+    .menu-mobile ul li {
+        background-color: white;
+        padding: 8px 0;
+        border-bottom: 1px solid black;
+    }
+
+    .menu-mobile ul li a {
+        color: black;
+        text-decoration: none;
+        display: block;
+    }
+
+    .menu-mobile ul li:hover {
+        background-color: #2e7d32;
+    }
+
+    /* area aluno login*/
+    div.logar {
+        width: 90%;
+    }
+}
